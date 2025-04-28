@@ -40,7 +40,7 @@ const GenerateProgram = () => {
       console.error = originalError;
     };
   }, []);
-  
+
   // auto-scroll messages 
   useEffect(() => {
     if (messageContainerRef.current) {
@@ -190,14 +190,14 @@ const GenerateProgram = () => {
                 <div className="relative w-full h-full rounded-full bg-card flex items-center justify-center border border-border overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-secondary/10"></div>
                   <img
-                    src="/ai-avatar.png"
+                    src="/fit_robo.jpg"
                     alt="AI Assistant"
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
 
-              <h2 className="text-xl font-bold text-foreground">CodeFlex AI</h2>
+              <h2 className="text-xl font-bold text-foreground">Fitness GPT AI</h2>
               <p className="text-sm text-muted-foreground mt-1">Fitness & Diet Coach</p>
 
               {/* SPEAKING INDICATOR */}
